@@ -3,8 +3,8 @@
     "date": "26.10.2019",
     "time": "20:43",
     "currency": "RU",
-    "country": "Russia",
     "address": {
+      "country": "Russia",
       "city/town": "Moscow",
       "index": "105187",
       "street": "Измайловское шоссе",

@@ -3,8 +3,8 @@
     "date": "28.11.2019",
     "time": "21:03",
     "currency": "EU",
-    "country": "Germany",
     "address": {
+      "country": "Germany",
       "city/town": "Hamburg. Lokstedt",
       "index": "22529",
       "street": "Troplowitzstraße",

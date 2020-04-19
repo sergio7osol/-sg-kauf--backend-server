@@ -186,6 +186,28 @@ app.get("/all-files", (req, res) => {
   })
 });
 
+app.get("/all-dates", (req, res) => {
+    const buyDirectory = path.join(__dirname, '../data/buys');
+  
+    fs.readdir(buyDirectory, function (err, files) {
+      let promises = null;
+  
+      if (err) {
+        res.send('Error getting buy file names.');
+      } else {
+        promises = files.map((filename, index) => {
+          return new Promise((resolve, reject) => {
+            resolve(filename);
+          });
+        });
+  
+        Promise.all(promises).then((content) => {
+          res.send(content);
+        })
+      }
+    })
+  });
+
 
 app.post("/save-day", cors(), (req, res) => {
 

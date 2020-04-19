@@ -3,8 +3,8 @@
     "date": "23.11.2019",
     "time": "22:02",
     "currency": "EU",
-    "country": "Germany",
     "address": {
+      "country": "Germany",
       "city/town": "Hamburg. Winterhude",
       "index": "22301",
       "street": "Dorotheenstr.",

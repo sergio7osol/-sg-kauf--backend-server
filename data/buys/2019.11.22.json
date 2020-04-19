@@ -3,8 +3,8 @@
     "date": "22.11.2019",
     "time": "13:53",
     "currency": "EU",
-    "country": "Germany",
     "address": {
+      "country": "Germany",
       "city/town": "Hamburg",
       "index": "22307",
       "street": "Fuhlsbuettler Str.",
